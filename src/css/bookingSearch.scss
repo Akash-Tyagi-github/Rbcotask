@@ -1,0 +1,123 @@
+.searchComp {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  // border: 2px solid green;
+  .serachMainContainer {
+    width: 70%;
+    // border: 2px solid red;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 0px;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgb(191, 190, 190);
+    .searchMain {
+      width: 90%;
+      // border: 5px solid black;
+      margin: 0px auto;
+
+      .services {
+        width: 485px;
+        // border: 2px solid red;
+        padding-left: 10px;
+        .servicesName {
+          width: 60px;
+          span {
+            font-size: 15px;
+            font-family: "poppins";
+          }
+        }
+        .servicesName1 {
+          width: 95px;
+          span {
+            font-size: 15px;
+            font-family: "poppins";
+          }
+        }
+      }
+    }
+    .input-field-container {
+      width: 90%;
+      // border: 2px solid black;
+      margin: 0px auto;
+
+      .customSelect {
+        width: 100%;
+        border: 1px solid grey;
+        margin-right: 5px;
+        border-radius: 7px;
+        padding: 5px;
+        label {
+          font-family: "poppins";
+          font-weight: 600;
+        }
+        .dropdown {
+          // margin: 0 auto;
+          z-index: 10000;
+          // width: 300px;
+          width: 100%;
+          // border: 1px solid red;
+          position: relative;
+        }
+        .dropdown,
+        .dropdown * {
+          z-index: 10;
+        }
+        .dropdown .dropdown-btn {
+          cursor: pointer;
+          background: white;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          // padding: 10px 5px
+          background: white;
+          // border: 1px solid #ddd;
+          border-radius: 5px;
+          color: #777;
+          font-weight: 500;
+        }
+        .dropdown-content {
+          position: absolute;
+          /* top: 110%; */
+          left: 0;
+          width: 100%;
+          box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.07);
+          background-color: #6382d6;
+          color: white;
+        }
+        .dropdown-content .item {
+          padding: 10px;
+          cursor: pointer;
+          border-bottom: 1px solid grey;
+        }
+        .dropdown-content .item .name {
+          font-size: 14px;
+          padding: 0px;
+          margin: 0px;
+        }
+        .dropdown-content .item .name1 {
+          font-size: 12px;
+          padding-left: 9px;
+          margin: 0px;
+        }
+        .dropdown-content .item:hover {
+          // background: #fcfcfc;
+          background-color: white;
+          color: #6382d6;
+        }
+
+        button {
+          z-index: -1;
+          display: block;
+          width: 300px;
+          margin: 0 auto;
+        }
+      }
+      .searchBtn {
+        font-family: "poppins";
+        height: 50px;
+      }
+    }
+  }
+}
